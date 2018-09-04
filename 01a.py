@@ -45,5 +45,5 @@ plaintext = str.upper(raw_input("输入明文："))  # 将输入转为字符串�
 for char in plaintext:  # 以下遍历plaintext中包含的所有单个成分
     wl.append(code_dict.get(char))  # 从字典中返回上述元素对应指定键的值，并加入列表wl
 nwl = " "  # 定义nwl为“ ”
-print nwl.join(wl)  # 将列表re中的元素用bre的值连接，并输出
+print nwl.join(wl)  # 将列表wl中的元素用nwl的值连接，并输出
 print ("Done.")
